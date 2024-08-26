@@ -11,3 +11,166 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-30 {
+  align-items: center !important;
+  appearance: none !important;
+  background-color: #6E7A6E !important;
+  border-radius: 4px !important;
+  border-width: 0 !important;
+  box-sizing: border-box !important;
+  color: white !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  height: 48px !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  list-style: none !important;
+  overflow: hidden !important;
+  padding: 27px !important;
+  position: relative !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #555c55 0 -3px 0 inset !important;
+  transform: translateY(-2px) !important;
+  width: 15% !important;
+  margin-top: 5px !important;
+}
+
+.button {
+  align-items: center !important;
+  appearance: none !important;
+  background-color: #6E7A6E !important;
+  border-width: 0 !important;
+  box-sizing: border-box !important;
+  color: white !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  height: 48px !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+  list-style: none !important;
+  overflow: hidden !important;
+  /* position: relative !important; */
+  text-align: left !important;
+  text-decoration: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  white-space: nowrap;
+  height: 58px !important;
+  will-change: box-shadow, transform;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #555c55 0 -3px 0 inset !important;
+  transform: translateY(-2px) !important;
+  font-size: 14pt !important;
+}
+
+.search {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #DEDED6 0 -3px 0 inset !important;
+  transform: translateY(-2px) !important;
+  background-color: #f0f0e6 !important;
+}
+
+.start,
+.end {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #DEDED6 0 -3px 0 inset !important;
+  transform: translateY(-2px) !important;
+  margin-right: 10px !important;
+  width: 491px !important;
+  margin-top: 5px !important;
+  background-color: #f0f0e6 !important;
+}
+
+.search:focus {
+  border: "5px solid red"
+}
+
+canvas {
+  height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  :root {
+    width: 100% !important;
+    margin: none !important;
+    padding: 0px !important;
+  }
+
+  .button-30 {
+    text-align: center !important;
+    width: 100% !important;
+    margin-top: 9px !important;
+  }
+
+  .start,
+  .end {
+    margin-right: 0px !important;
+    margin-top: 9px !important;
+    width: 100% !important;
+  }
+
+  .dateControl {
+    margin: 0px !important;
+    display: block !important;
+  }
+
+  /* #root>div>div.MuiBox-root.css-y9l3cp {
+    width: 90% !important;
+  } */
+
+  .card {
+    height: 830px !important;
+    display: block !important;
+  }
+
+  .image {
+    height: 200px !important;
+  }
+
+  .title {
+    font-size: 11pt !important;
+  }
+
+  .date,
+  .authors {
+    font-size: 8pt !important;
+  }
+
+  .description {
+    font-size: 8pt !important;
+  }
+
+  /* .chart {
+    margin-top: 0px !important;
+    height: 400px !important;
+    width: 240px !important;
+  }
+
+  .chart-container {
+    position: relative;
+    margin: auto;
+    /* height: 80vh; 
+    width: 300vw;
+    padding: 2%;
+  }
+
+  .scnd-div {
+    /* height: 250px; 
+    width: 100%;
+  } */
+
+}
