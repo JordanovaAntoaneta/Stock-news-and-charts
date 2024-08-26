@@ -1,46 +1,10 @@
-# Getting Started with Create React App
+# Креирање на веб апликација со користење на Marketaux api I yahoo-finance api. Веб апликацијата ги има следните функционалности:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+-	MaterialUI autocomplete поле за пребарување на компании кое влече имиња на компании од api и копче. При клик на копчето се прикажуваат компании кои го содржат пребараното име и може да се избере една.
+-	MaterialUI полиња за избор на датум (од кој до кој период) и ‘Fetch news’ копче. По кликање на копчето се прикажуваат MaterialUI картички со податоци од вести за избраната компанија во избраниот период.
+-	Насловите на вестите се бојат според тоа дали веста е позитивна, негативна или неутрална
+-	При пребарување, доколку една компанија и временски период не биле претходно пребарани тие се хешираат и зачувуваат во localStorage. Потоа, доколку повторно се пребараат, се преземаат од таму.
+-	Секоја картичка содржи слика, наслов, кратка содржина, време на објавување на веста, автори, график за цени по период и ‘Learn more’ копче кој е линк до целосната вест.
+-	Графикот е изработен со Chart.js и е Line график. На х-оската се датумите за избраниот период по денови и часови. На y-оската се цените претставени во долари. На графикот има вертикална линија која го обележува   точното време на објавување на веста, за секоја вест соодветно.
+-	За датумите се употребува Dayjs
+-	Веб апликацијата е прилагодена за на телефон
